@@ -17,3 +17,11 @@ This is an early prototype, **not a complete reproduction of Noita**. It has thr
 [Nolla Games' official press kit](https://noitagame.com/press/) describes Noita's simulated pixels, procedural world, spells and permanent death. The [official release notes](https://www.noitagame.com/release_notes/) illustrate its broad spell, perk and material systems.
 
 The [Noita developer log](https://devlog.noitagame.com/page/2) describes acid producing flammable gas and lava interactions that inspired these simplified reactions.
+
+## Arcade gameplay screenshots
+
+`arcade/manifest.json` owns the two reviewed gameplay screenshots shown on Kata Arcade. These are local HTTP captures of the static game, not screenshots of an asserted live deployment. Original browser PNGs and capture records live in `arcade/capture-evidence/`; JPEGs are compressed copies without retouching. Each record identifies the source commit, SHA-256 of every served gameplay input (`index.html`, `game.js`, `style.css`), actual capture time, browser version, viewport and public interactions.
+
+To refresh on macOS: commit gameplay changes first, run `npm ci`, `npx playwright install chromium`, and `npm run capture:arcade`. Playwright is pinned to 1.61.0. The script serves only the static deployment inputs on localhost, starts a clean browser, fixes Date for the seeded cave and uses ordinary clicks, keys and mouse casts. Real-time animation means pixel-identical reruns are not promised. It preserves PNG pixels and uses macOS `sips` for JPEG encoding. Visually inspect both images before committing the generated manifest, records and assets. Update the capture filename date for a new review series.
+
+`npm test` fails for missing images, broken evidence or hashes, and changed gameplay inputs, so later game changes require fresh reviewed captures. The existing deployment workflow runs these tests, stages only game inputs and `arcade/`, and publishes them together. After deployment, compare live manifest and asset hashes before refreshing the Arcade snapshot. A successful upload alone does not verify the live site.

@@ -1,0 +1,31 @@
+{
+  "sourceCommit": "0bb4e0d8b7f0cbdea5c179823894e2c9b2aef439",
+  "inputs": {
+    "index.html": "ff8dee1dab18d77a96be88818ed4b5e4c7780c62fad066e44d3eb5426fd45cc9",
+    "game.js": "f1b690c619e4fa5ab030e31e4e2fdf7e26858a423e52ea2a26773bc062412ac0",
+    "style.css": "2f8ce057d01654696ee9e2bf0be01992608d3802cc2724f46b35cd390d857d82"
+  },
+  "capturedAt": "2026-11-05T05:43:00Z",
+  "baseUrl": "http://127.0.0.1:51005/",
+  "tool": {
+    "name": "Playwright",
+    "version": "1.61.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "149.0.7827.55"
+  },
+  "viewport": {
+    "width": 1200,
+    "height": 900
+  },
+  "deviceScaleFactor": 1,
+  "steps": [
+    "Open the local static artifact over HTTP with a clean browser context at 1200×900, en-US, UTC.",
+    "Fix Date to 2026-11-05T05:00:00Z for the public game’s time-based cave seed; animation remains real-time.",
+    "Click BEGIN DESCENT.",
+    "Hold D for 2200 ms to walk through the upper passage; aim right and hold the mouse to cast for 350 ms.",
+    "Release the mouse, hold D for another 1800 ms toward the first descent, then select wand 2 and cast toward the lower-right for 250 ms; wait 500 ms."
+  ],
+  "imageConversion": "macOS sips JPEG quality 88; no crop, compositing or retouching."
+}

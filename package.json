@@ -1,1 +1,13 @@
-{"name":"ember-below","version":"0.1.0","private":true,"type":"module","scripts":{"test":"node --test"}}
+{
+  "name": "ember-below",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "capture:arcade": "node scripts/capture-arcade.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.61.0"
+  }
+}

@@ -1,1 +1,45 @@
-{"schemaVersion":2,"gameId":"kata-inspired-by-noita-codex-dot","playUrl":"https://intrepion.github.io/kata-inspired-by-noita-codex-dot/","screenshots":[]}
+{
+  "schemaVersion": 3,
+  "gameId": "kata-inspired-by-noita-codex-dot",
+  "playUrl": "https://intrepion.github.io/kata-inspired-by-noita-codex-dot/",
+  "screenshots": [
+    {
+      "path": "arcade/screenshots/review-20261105-01.jpg",
+      "sha256": "142f3eec687f99c7757a480a45b67391217a7b853fa4bab70c4878c30cfa9130",
+      "alt": "Ember Below: casting a wand through the upper passage of a layered cave, with enemies, pickups and liquid chambers below.",
+      "provenance": {
+        "kind": "local_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/review-20261105-01.png",
+        "sourceSha256": "6dfde4629958b6a69a103bc7497afafdea3e7b66dbda374e3ff31f11d45ba24e",
+        "captureCommit": "0bb4e0d8b7f0cbdea5c179823894e2c9b2aef439",
+        "inputHashes": {
+          "index.html": "ff8dee1dab18d77a96be88818ed4b5e4c7780c62fad066e44d3eb5426fd45cc9",
+          "game.js": "f1b690c619e4fa5ab030e31e4e2fdf7e26858a423e52ea2a26773bc062412ac0",
+          "style.css": "2f8ce057d01654696ee9e2bf0be01992608d3802cc2724f46b35cd390d857d82"
+        },
+        "capturedAt": "2026-11-05T05:42:58Z",
+        "captureRecordPath": "arcade/capture-evidence/review-20261105-01.json",
+        "captureRecordSha256": "aca30eefd32919aeb46daf5303d3d70066f3f17d7f7f16e7d55e3638a46a820a"
+      }
+    },
+    {
+      "path": "arcade/screenshots/review-20261105-02.jpg",
+      "sha256": "4000e76f5dde64a22f7cfb5616020566210d184c77d2fd65ed00745543774a30",
+      "alt": "Ember Below: the second wand equipped while descending toward the first enemy encounter and water chamber.",
+      "provenance": {
+        "kind": "local_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/review-20261105-02.png",
+        "sourceSha256": "66fde2cd193a8d91f83b8e1e7f83840db52abc925dab78d09a3b9f389ae7b6c0",
+        "captureCommit": "0bb4e0d8b7f0cbdea5c179823894e2c9b2aef439",
+        "inputHashes": {
+          "index.html": "ff8dee1dab18d77a96be88818ed4b5e4c7780c62fad066e44d3eb5426fd45cc9",
+          "game.js": "f1b690c619e4fa5ab030e31e4e2fdf7e26858a423e52ea2a26773bc062412ac0",
+          "style.css": "2f8ce057d01654696ee9e2bf0be01992608d3802cc2724f46b35cd390d857d82"
+        },
+        "capturedAt": "2026-11-05T05:43:00Z",
+        "captureRecordPath": "arcade/capture-evidence/review-20261105-02.json",
+        "captureRecordSha256": "ccd5345416a7def64dc60513c27d6b391f69ab2a6575628321ab870e860ac926"
+      }
+    }
+  ]
+}
